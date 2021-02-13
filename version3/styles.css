@@ -1,0 +1,144 @@
+body {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	font-family: "Lato", "LatoOffline", sans-serif;
+	background-color: #ffffff;
+	color: #212529;
+}
+
+.header
+{
+	background: linear-gradient(rgba(0,0,0,0.0), #fff), url(images/bg.png) no-repeat center; 
+	width:100%;
+	height:200px;
+	color: black;
+	display:flex;
+}
+
+.header h1
+{
+	margin:0;
+	width:100%;
+	padding:0;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 3em;
+	text-align: center;
+	align-self: center;
+}
+
+.bg-container {
+	background-color: white;
+	width: 1140px;
+	height: 100vh;
+	margin: auto;
+}
+
+.container {
+	background-color: white;
+	width: 1140px;
+	margin: auto;
+	padding:0;
+	margin:0;
+}
+
+#arrow-down0, #arrow-down1, #arrow-down2, #arrow-down3, #arrow-down4, #arrow-down5{
+	width:85px;
+	margin-top:5px;
+	cursor: pointer;
+}
+
+#arrow-down2, #arrow-down3, #arrow-down4, #arrow-down5{
+	margin-top:10px;
+}
+
+.arrow-down-rotated{
+	transform: rotate(180deg);
+}
+	
+#sponsors-logo-row1, #sponsors-logo-row2, #sponsors-logo-row3 {
+	margin-bottom: 5px;
+	width:100%;
+	padding:0;
+}
+   
+#sponsors-logo-row1 {
+	height:110px;
+}
+	
+#sponsors-logo-row2 {
+	height:170px;    
+}
+
+#sponsors-logo-row3 {
+	height:145px;     
+  }
+	
+.container h1 {
+	padding: 25px 25px;
+}
+
+.contact-container {
+	display: flex;
+	justify-content: center;
+}
+
+.contact-logo {
+	width: 65px;
+	padding: 0 10px;
+}
+
+#accordion {
+	display: flex;
+}
+
+.panel {
+	padding: 0;
+	margin:0;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+	
+.panel-collapse {
+	width: 95%;
+	padding: 15px 25px 15px 25px;
+	text-align: justify;
+	line-height: 1.5;
+	font-weight: 600;
+	background-color: #E0E0E0;
+	border-radius: 5px;
+}
+
+.panel-heading, .panel-title {
+	width: 75%;
+}
+
+.row-spacing
+{
+	height:25px;
+}
+
+
+/*Pas mettre dans site de CTFd*/
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding-left: 400px;
+	overflow: hidden;
+	background-color: #010045 !important;
+	color: white;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	text-align: center;
+	padding: 18px 16px;
+	text-decoration: none;
+}

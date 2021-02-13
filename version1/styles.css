@@ -1,0 +1,98 @@
+body {
+  height: 100vh;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: "Lato", "LatoOffline", sans-serif;
+  overflow: hidden;
+}
+
+.header
+{
+    background: linear-gradient(rgba(0,0,0,0.0), #fff), url(images/bg.png) no-repeat center; 
+    width:100%;
+    height:200px;
+    color: black;
+    display:flex;
+}
+
+.header h1
+{
+    margin:0;
+    width:100%;
+    padding:0;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 3em;
+    text-align: center;
+    align-self: center;
+}
+
+.container {
+  background-color: white;
+  width: 1080px;
+  height: 100%;
+  overflow: hidden;
+  margin: auto;
+}
+
+.content {
+  font-weight: 600;
+  line-height: 1.50;
+  color: #212529;
+  padding: 0 50px;
+  text-align: justify;
+}
+
+#polyhx-img {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+}
+
+.logo
+{
+    display:flex;
+    justify-content: center;
+}
+
+.contact
+{
+    width: 60px;
+    height:60px;
+
+    padding-left:10px;
+    padding-right:10px;
+}
+
+
+
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 405px;
+  overflow: hidden;
+  background-color: #010045 !important;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 18px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  color: 255 255 255 / 50%;
+}
